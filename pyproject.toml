@@ -1,0 +1,11 @@
+[project]
+name = "hand-pose-estimation"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12.7"
+dependencies = [
+    "mediapipe>=0.10.18",
+    "opencv-python>=4.10.0.84",
+    "tensorflow[and-cuda]>=2.18.0",
+]
